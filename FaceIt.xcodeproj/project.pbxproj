@@ -13,6 +13,7 @@
 		EA8EF1FA1D21198200326D1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA8EF1F91D21198200326D1B /* Assets.xcassets */; };
 		EA8EF1FD1D21198200326D1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8EF1FB1D21198200326D1B /* LaunchScreen.storyboard */; };
 		EA8EF2061D211BC200326D1B /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8EF2051D211BC200326D1B /* FaceView.swift */; };
+		EAA4EA441D3E55FB00430A84 /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA4EA431D3E55FB00430A84 /* FacialExpression.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EA8EF1FC1D21198200326D1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA8EF1FE1D21198200326D1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA8EF2051D211BC200326D1B /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		EAA4EA431D3E55FB00430A84 /* FacialExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				EA8EF1F41D21198200326D1B /* FaceViewController.swift */,
 				EA8EF1F61D21198200326D1B /* Main.storyboard */,
 				EA8EF2051D211BC200326D1B /* FaceView.swift */,
+				EAA4EA431D3E55FB00430A84 /* FacialExpression.swift */,
 				EA8EF2041D2119C300326D1B /* Supporting Files */,
 			);
 			path = FaceIt;
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA8EF1F51D21198200326D1B /* FaceViewController.swift in Sources */,
+				EAA4EA441D3E55FB00430A84 /* FacialExpression.swift in Sources */,
 				EA8EF1F31D21198200326D1B /* AppDelegate.swift in Sources */,
 				EA8EF2061D211BC200326D1B /* FaceView.swift in Sources */,
 			);
@@ -300,6 +304,7 @@
 				EA8EF2031D21198200326D1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
